@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse; /*seve para unir bordas de tabelas*/
+            margin: 70px;
+            width: 40%;
+            
+        }
+        table td, table th{
+            border: 1px solid gray;
+            padding: 15px;
+            
+        }
+
+        table thead{
+             background-color: rgb(193, 186, 186);
+        }
+
+        
+    </style>
+</head> 
+<body>
+    <p>tabelas </p>
+
+    <table>   <!--tag de tabela-->
+        <thead> <!--cabeçalho-->
+          <tr> <!--tag de linhas-->
+            <th> Titulo 1</th> <!--as linhas do cabecalho-->
+            <th>Titulo 2 </th>
+            <th>Titulo 3</th>
+          </tr>
+
+        </thead>
+
+        <tbody> <!--tag do corpo da tabela-->
+            <tr>
+                <td>corpo 1</td>
+                <td>corpo 2</td>
+                <td>corpo 3</td>
+                
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="2" id="s">aqui</td> <!--atributos que servem para uma mesma celula ocupar mais de uma linha ou coluna-->
+                <td>corpo 2</td>
+                
+            </tr>
+            <tr>
+                
+                <td>corpo 3</td>
+                
+            </tr>
+            <tr>
+                
+                <td>corpo 3</td>
+                <td>corpo 3</td>
+                <td>corpo 3</td>
+            </tr>
+        </tbody>
+        
+    </table>
+    
+</body>
+</html>

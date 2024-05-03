@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minha Página</title>
+<style>
+
+    body {
+        background-image: linear-gradient(45deg, black, rgba(40, 58, 58, 0.849));
+        height: 1500px;
+        margin: 0;
+        padding: 15px;
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+
+    img {
+        width: 200px;
+        height: 150px;
+        border-radius: 15px;
+        
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 20px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: rgb(132, 14, 201);
+        transition: 0.3s all;
+    }
+
+    #adm {
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        padding: 5px 10px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 35px;
+    }
+
+    .content p {
+        font-size: 20px;
+    }
+</style>
+</head>
+<body>
+
+<img src="arte_escritório-removebg-preview.png" alt="">
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Direito Previdenciário</a></li>
+            <li><a href="#" id="adm">Direito Administrativo</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="content">
+    <h1>Somos a Carneiro Advocacia</h1>
+    <p>Somos especialistas em Direito Previdenciário e Direito Administrativo.</p>
+</div>
+
+<h2>Quem Somos Nós?</h2>
+<p>Nós somos um escritório de advocacia voltado para o atendimento ao cliente nas áreas de Direito Previdenciário e Direito Administrativo.</p>
+
+</body>
+</html>

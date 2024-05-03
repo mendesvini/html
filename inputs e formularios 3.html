@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+       form{
+        margin: 40px;
+       }
+
+       label{
+        font-size: 30px;
+       }
+
+       input{
+        border: solid black 2px;
+       }
+    </style>
+</head>
+<body>
+    <form action="#" method="get" target="_blank" autocapitalize="off">
+        <p>
+            <label for="data">calendario:</label>
+            <input type="date" name="date" id="data" value="1979-01-01">
+        </p>
+
+        <p>
+            <label for="datetime">data e hora</label>
+            <input type="datetime-local" name="datetime" id="datetime" value=""> <!--o "local" serve para quando o navegardor não surporta o formato-->
+        </p>
+
+        <p>
+            <label for="time">hora</label>
+            <input type="time" name="time" id="time" value="20:00:01">
+
+
+        <p>
+            <label for="textarea"></label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </p>
+        </p>
+    </form>
+    
+</body>
+</html>

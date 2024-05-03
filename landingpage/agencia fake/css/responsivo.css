@@ -1,0 +1,41 @@
+@media screen and (max-width:1005px) {
+    .navbar{
+        position: relative;
+    }
+   .menu{
+    display: none;
+   }
+
+   .log{
+    margin: 0;
+    text-align: center;
+   }
+
+   .header{
+    padding-top:50px;
+   }
+
+   .headline{
+    flex: 100%;
+    margin: 5%;
+    text-align: center;
+   }
+   .headerline p {
+    text-align: center;
+   }
+
+   .imgh{
+    flex:100%;
+    margin: 5%;
+    text-align: center;
+   }
+
+   section{
+    padding-top: 400px;
+    margin-top: 50px    ;
+   }
+
+   .car{
+    width: 100%;
+   }
+}

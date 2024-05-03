@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head{
+            transition: all 1s ease-in-out;
+        }
+        .head:hover { /*hover muda o elemnto quando passa o mouse em cima*/
+            background-color: black;
+            cursor: pointer;
+            color: white;
+        }
+        input:focus{
+            box-shadow: 2px 2px 5px black; /*sombra*/
+ 
+        }
+
+        .marque:not(:checked) + p{
+            background-color: blue;
+        }
+
+        .marque:checked + p {
+            font-size: 50px;
+            background-color: black;
+            width: 50px;
+            padding: 50px;
+            color:white
+            
+        }
+
+        .selecao::selection {
+            background-color: black;
+            color: white;
+
+        }
+
+    </style>
+</head>
+<body>
+    <input type="text">
+    <h1 class="head">hover</h1>
+    <p><a href="https://www.cursoemvideo.com/curso/curso-de-algoritmo/">curso</a></p>
+    <div>
+    <input type="radio" class="marque">
+    <p>ola mundo</p>
+    <p class="selecao">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio similique obcaecati
+        explicabo eum harum beatae dolor? <br>
+         Illum molestias assumenda laboriosam, saepe eius minima sed,
+        voluptatibus quibusdam, minus odio numquam ut?
+    </p>
+    </div>
+</body>
+</html>

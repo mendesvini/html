@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .conteiner{
+            display: flex;
+            flex-direction: row; /* rever inverte a ordem dos elementos*/
+            justify-content: end;
+            align-items:center;
+            flex-wrap: wrap;/* wrap faz uma quebra de linhas*/
+            background-color: #f7f7f7;
+            border: 2px solid red;
+            max-width: 400px;
+            height: 400px;
+            gap: 20px; /*espaçamento*/
+        }
+
+        .item{
+            background-color: #ccc;
+            border: 2px solid blue;
+            height: 50px;
+            width: 50px;
+            text-align: center;
+            padding-top: 15px;
+        }
+
+        #p1{
+            align-self:center;/*isola o posicionamento de  epenas um alemnto*/
+            flex-grow: 1;/*tamanho isolado do item*/
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item" id="p1">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        
+    </div>
+</body>
+</html>
